@@ -18,12 +18,8 @@
   display: inline-block;
   /* Uso do padding para aumentar área de contato para o click */
   padding: 16px 0px;
-  font-size: 18px;
-  color: #fff;
   /* Elemento pai para o crescimento da animação da navegação */
   position: relative;
-  font-family: "Poppins";
-  font-weight: 400;
 }
 .header-bg {
   background-color: #000;
