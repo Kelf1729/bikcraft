@@ -3,5 +3,7 @@
 @import "/css/global/global.css";
 /* Home */
 @import "/css/global/home/introducao.css";
-/* Botão amarelo */
+/*Utilitários */
 @import "/css/global/utilidades/componentes.css";
+@import "/css/global/utilidades/tipografia.css";
+@import "/css/global/utilidades/cores.css";
