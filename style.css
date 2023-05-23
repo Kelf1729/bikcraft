@@ -14,3 +14,5 @@
 @import "/css/global/utilidades/componentes.css";
 @import "/css/global/utilidades/tipografia.css";
 @import "/css/global/utilidades/cores.css";
+/* Termos e condições */
+@import "/css/global/termos/termos.css";

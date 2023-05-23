@@ -56,3 +56,23 @@
 .link:hover {
   color: var(--cor-0);
 }
+/* Ajuste da página termos e condições */
+.titulo-bg {
+  background-color: var(--cor-11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.titulo p {
+  margin-bottom: 4px;
+}
+/* Ajuste de responsividade */
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .titulo p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
