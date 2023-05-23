@@ -41,3 +41,32 @@
   margin-bottom: 8px;
   width: max-content;
 }
+.tecnologia_vantagens img {
+  margin-bottom: 8px;
+}
+/* Ajuste de responsividade */
+@media (max-width: 800px) {
+  /* Retirando a shadow */
+  .tecnologia-bg {
+    box-shadow: initial;
+  }
+  .tecnologia {
+    grid-template-columns: 1fr;
+  }
+  .tecnologia_conteudo {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  /* Retirada da imagem */
+  .tecnologia_imagem {
+    display: none;
+  }
+  .tecnologia a {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 600px) {
+  .tecnologia_vantagens {
+    flex-direction: column;
+  }
+}
