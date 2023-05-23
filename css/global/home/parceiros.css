@@ -1,0 +1,51 @@
+.parceiros {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.parceiros h2 {
+  margin-bottom: 60px;
+}
+.parceiros ul {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0 20px;
+}
+.parceiros li {
+  padding: 32px;
+  /* Mudança de display flex para criar margem com alinhamento auto */
+  display: flex;
+  border-left: 2px solid var(--cor-p1);
+  border-bottom: 2px solid var(--cor-p1);
+}
+.parceiros img {
+  margin: auto;
+}
+/* Retirada das bordas laterais */
+.parceiros li:first-child,
+.parceiros li:nth-child(5) {
+  border-left: none;
+}
+/* n+5, significa começando do elemento 5 até o final */
+.parceiros li:nth-child(n + 5) {
+  border-bottom: none;
+}
+/* Ajuste de responsividade */
+@media (max-width: 800px) {
+  .parceiros {
+    padding-bottom: 20px;
+  }
+  .parceiros ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .parceiros li:nth-child(3),
+  .parceiros li:nth-child(7) {
+    border-left: none;
+  }
+  .parceiros li:nth-child(5),
+  .parceiros li:nth-child(6) {
+    border-bottom: 2px solid var(--cor-p1);
+  }
+}
