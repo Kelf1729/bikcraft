@@ -76,3 +76,16 @@
     font-weight: 400;
   }
 }
+/* Seta do botão */
+.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url(/img/icones/seta.svg);
+}
+.seta:hover::after {
+  transition: 0.5s;
+  margin-left: 18px;
+}
