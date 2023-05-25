@@ -23,3 +23,5 @@
 @import "/css/global/seguros/perguntas.css";
 /* Página de bicicletas */
 @import "/css/global/bicicleta/bicicleta.css";
+/* Página da Nimbus */
+@import "/css/global/bicicleta/seguro.css";

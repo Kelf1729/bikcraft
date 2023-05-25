@@ -1,0 +1,31 @@
+.seguro-bg {
+  background-color: var(--cor-11);
+  box-shadow: inset 0 120px var(--cor-0), inset 0 -120px var(--cor-12);
+}
+.seguro_conteudo {
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+.seguro_conteudo p,
+.seguro_conteudo a {
+  margin-top: 20px;
+}
+.seguro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.seguro img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Responsividade */
+@media (max-width: 800px) {
+  .seguro_conteudo h2 {
+    font-size: 1.5rem;
+  }
+  .seguro_conteudo p {
+    font-size: 1.125rem;
+  }
+}

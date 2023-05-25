@@ -6,6 +6,10 @@
 .bicicletas_lista h2 {
   margin-bottom: 40px;
 }
+/* Somente na página de id bicicleta */
+#bicicleta .bicicletas_lista ul {
+  padding: 0px 0px 20px 0px;
+}
 .bicicletas_lista ul {
   display: flex;
   gap: 40px;
