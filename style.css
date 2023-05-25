@@ -18,3 +18,6 @@
 @import "/css/global/termos/termos.css";
 /* Página bicicletas */
 @import "/css/global/bicicletas/bicicletas.css";
+/* Página de seguros */
+@import "/css/global/seguros/vantagens.css";
+@import "/css/global/seguros/perguntas.css";
