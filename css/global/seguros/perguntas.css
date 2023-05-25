@@ -1,0 +1,56 @@
+.perguntas {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.perguntas h2 {
+  margin-bottom: 40px;
+}
+/* Apenas as dl dentro da div */
+.perguntas dl > div {
+  padding: 20px;
+  border-radius: 4px;
+}
+.perguntas dl > div:nth-child(odd) {
+  background-color: var(--cor-1);
+}
+/* Ajuste para criar um grid para as perguntas */
+.perguntas dt {
+  display: grid;
+  /* Auto para ajustar aos icones */
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 5px;
+  /* simalização que posso clicar */
+  cursor: pointer;
+}
+/* Elemento de detalhe da pergunta */
+.perguntas dt::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+}
+.perguntas dt::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+  background: url(/img/icones/seta-abrir.svg) center no-repeat;
+}
+.perguntas dt:hover::after {
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+.perguntas dd {
+  padding-left: 20px;
+  padding-top: 10px;
+  max-width: 80ch;
+}
+/* Ajuste de responsividade */
+@media (max-width: 800px) {
+  .perguntas h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+}
