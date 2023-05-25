@@ -21,3 +21,5 @@
 /* Página de seguros */
 @import "/css/global/seguros/vantagens.css";
 @import "/css/global/seguros/perguntas.css";
+/* Página de bicicletas */
+@import "/css/global/bicicleta/bicicleta.css";
