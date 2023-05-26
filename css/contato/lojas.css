@@ -34,3 +34,9 @@
   display: flex;
   gap: 5px;
 }
+/* responsividade */
+@media (max-width: 800px) {
+  .lojas_conteudo {
+    grid-template-columns: 1fr;
+  }
+}
