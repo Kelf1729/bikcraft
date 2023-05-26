@@ -30,3 +30,5 @@
 @import "/css/contato/lojas.css";
 /* Formulario */
 @import "/css/global/utilidades/formulario.css";
+/* Página de orçamento */
+@import "/css/global/orcamento/orcamento.css";
