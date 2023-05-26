@@ -30,8 +30,3 @@
 .col-2 {
   grid-column: span 2;
 }
-/* Responsividade */
-@media (max-width: 600xp) {
-  
-  }
-}
