@@ -2,11 +2,58 @@
 
 ---
 
-## <p align = "center">Colocar uma imagem alinhada aqui</p>
+## <p align = "center">
+
+<img src="img/bicicleta/nimbus1.jpg">
+</p>
 
 ## Descrição do Projeto
 
 ---
 
-O projeto foi desenvolvido como um trabalho final aplicando os conhecimentos aprendidos no curso de HTML e CSS do Origamid.
-Onde foram aplicados conhecimentos de (escrever algumas habilidades aplicadas).
+O projeto foi desenvolvido como um trabalho final aplicando os conhecimentos aprendidos no curso de **HTML** e **CSS** do **Origamid**.
+O site consiste na uma plataforma onde o usuário pode comprar uma bicicleta da marca Bikcraft, escolhendo entre 3 modelos da marca, Nimbus Stark, Nebula e Magic Might.
+As páginas de interação com usuário possuem:
+
+- Escolha de Bicicleta a ser comprada
+- Depoimento de clientes
+- Assinatura de Seguros
+- Contato para assistência
+- Localização da Empresa
+- Formulário de Contato
+- Descrição técnica das bicicletas
+
+## Tecnologias utilizadas
+
+---
+
+As principais tecnologias aplicadas no projeto foram:
+
+- HTML5
+- CSS3
+- JavaScript
+- PHP
+
+## Habilidades utilizadas
+
+---
+
+As principais habilidades aplicadas no projeto foram:
+
+- tags semânticas
+
+## Como baixar o projeto
+
+---
+
+Para baixar o projeto basta seguir as instruções abaixo:
+
+```bash
+$git clone https: ....
+```
+
+## Licença
+
+---
+
+Projeto Desenvolvido por **Kelf Almeida**
