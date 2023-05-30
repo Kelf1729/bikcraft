@@ -19,8 +19,10 @@ function ativarproduto(parametro) {
   }
 }
 parametros.forEach(ativarproduto);
+
 // Perguntas frequentes, efeito
 const perguntas = document.querySelectorAll(".perguntas button");
+console.log(perguntas);
 function ativarpergunta(event) {
   const pergunta = event.currentTarget;
   const controls = pergunta.getAttribute("aria-controls");
@@ -28,8 +30,8 @@ function ativarpergunta(event) {
   resposta.classList.toggle("ativa");
   const ativa = resposta.classList.contains("ativa");
   pergunta.setAttribute("aria-expanded", ativa);
-  console.log(controls);
 }
 function eventoperguntas(pergunta) {
   pergunta.addEventListener("click", ativarpergunta);
 }
+perguntas.forEach(eventoperguntas);
