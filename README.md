@@ -42,17 +42,13 @@ As principais tecnologias aplicadas no projeto foram:
 
 As principais habilidades aplicadas no projeto foram:
 
-- tags semânticas
+- Tags semânticas
+- Responsividade e mediaqueries
+- Grid e flex
+- Formulários
+- CSS utilitário
 
-## Como baixar o projeto
-
----
-
-Para baixar o projeto basta seguir as instruções abaixo:
-
-```bash
-$git clone https: ....
-```
+entre outros
 
 ## Licença
 
