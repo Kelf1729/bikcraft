@@ -19,7 +19,7 @@ As páginas de interação com usuário possuem:
 - Formulário de Contato
 - Descrição técnica das bicicletas
 
-**[Site Bikcraft](https://www.origamid.com/)**
+**[Site Bikcraft](https://kelf1729.github.io/bikcraft/)**
 
 ## Tecnologias utilizadas
 
