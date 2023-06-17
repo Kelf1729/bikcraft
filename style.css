@@ -1,13 +1,13 @@
 /* Import dos css */
-@import "/css/global/header.css";
-@import "/css/global/global.css";
+@import "./css/global/header.css";
+@import "./css/global/global.css";
 /* Home */
-@import "/css/global/home/introducao.css";
-@import "/css/global/home/tecnologia.css";
-@import "/css/global/home/parceiros.css";
-@import "/css/global/home/depoimento.css";
-@import "/css/global/seguros/seguros.css";
-@import "/css/global/footer.css";
+@import "./css/global/home/introducao.css";
+@import "./css/global/home/tecnologia.css";
+@import "./css/global/home/parceiros.css";
+@import "./css/global/home/depoimento.css";
+@import "./css/global/seguros/seguros.css";
+@import "./css/global/footer.css";
 /* Bicicletas lista */
 @import "/css/global/bicicletas/bicicletas-lista.css";
 /*Utilitários */
